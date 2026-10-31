@@ -1,12 +1,12 @@
-# 基于安路 FPGA 的无人值守博物馆智能显示屏
+# 安路赛题一｜无人值守博物馆智能显示屏
 
-基于 HX4S20C / EG4S20 的博物馆多媒体显示系统，当前代码版本 v49，整理日期：2026-10-31。
+安路赛题一作品，基于 HX4S20C / EG4S20 的博物馆多媒体显示系统。
 面向无人值守展陈，使用 FPGA 完成 TF 卡媒体读取、SDRAM 缓存、HDMI 输出与交互控制。
 
 ## 当前功能与状态
 
 包含图片切换、自动轮播、音频播放、中文字幕、转场、图片适配、频谱/波形、音量/亮度/对比度调节、矩阵键盘、红外、光敏自动亮度及串口上位机。
-v49 已移除 HDMI 和上位机的 ADC 诊断显示，光敏功能保留。
+HDMI 和上位机不显示 ADC 诊断信息，光敏自动亮度功能保留。
 历史构建与仿真记录随包提供；实物 Flash 烧录、断电恢复和所有外设效果仍需用户现场确认。
 
 ## 目录
@@ -15,7 +15,7 @@ v49 已移除 HDMI 和上位机的 ADC 诊断显示，光敏功能保留。
 - `projects/anlu_hdmi/`、`projects/hdmi_audio_probe/`：主工程引用的 HDMI、FIFO、TF/FAT32 和音频模块。
 - `tools/`：Windows 上位机、串口协议、工程准备、构建和验证脚本。
 - `evidence/`：SystemVerilog 测试源码、仿真数据及既有验证记录。
-- `release/`：最终 v49 bit、构建日志和时序报告，详见 [发布说明](release/README.md)。
+- `release/`：最终烧录文件、构建日志和时序报告，详见 [发布说明](release/README.md)。
 - `reports/`：最终种子 23 的资源与时序报告。
 - `hardware/`：[J1/J2 接线图](hardware/j1-j2-ir-keypad-light-wiring-style-v4.png)及 SVG 源文件。
 
@@ -44,8 +44,8 @@ $project = ./tools/prepare_project.ps1 -Destination ./build_repro
 ```
 
 `build_repro` 必须不存在。准备脚本创建工程副本、重定位 `.al` 并检查工程引用。
-`build_v47.ps1` 沿用旧文件名，实际构建本包 v49 源码；其 `rebuilt_bitstream/` 输出文件也沿用 v47 名称。
-构建脚本不会烧写板卡。直接使用已发布文件时请选择 `release/fpga_museum_v49_no_adc_display_20261029.bit`。
+构建脚本和重建输出沿用历史工程文件名，实际构建本仓库当前提交的源码。
+构建脚本不会烧写板卡。直接使用已发布文件时请选择 [最终烧录文件](release/fpga_museum_v49_no_adc_display_20261029.bit)。
 
 ## 设计与限制
 
@@ -68,3 +68,5 @@ $project = ./tools/prepare_project.ps1 -Destination ./build_repro
 本仓库用于作品代码展示与比赛评审。第三方源码和 IP 的原有版权声明保留，使用时遵守相应权利与工具许可；本仓库未另行授予统一开源许可。
 
 运行仿真产生的编译库、波形和重建输出通过 `.gitignore` 排除，已交付的源码、仿真输入、历史验证日志及发布报告保留。
+
+首页和上位机使用作品名称；历史构建记录和技术文件名保留过程版本信息，用于校验和追溯。

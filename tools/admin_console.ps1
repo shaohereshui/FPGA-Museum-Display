@@ -137,7 +137,7 @@ Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 $script:serial=$null;$script:applyingState=$false;$script:lastBoardState=$null
 $form=New-Object System.Windows.Forms.Form
-$form.Text='知古博物馆 · 管理控制台 v49'
+$form.Text='安路赛题一 · 知古博物馆管理控制台'
 $form.ClientSize=New-Object System.Drawing.Size(800,600)
 $form.FormBorderStyle='FixedSingle';$form.MaximizeBox=$false;$form.StartPosition='CenterScreen'
 $form.Font=New-Object System.Drawing.Font('Microsoft YaHei',10)
