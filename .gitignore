@@ -1,0 +1,13 @@
+# Generated build and simulation outputs
+/build_workspace_*/
+/build_repro/
+/rebuilt_bitstream/
+/evidence/work/
+/evidence/admin_work/
+*.wlf
+*.vcd
+*.bak
+
+# Local operating-system files
+Thumbs.db
+.DS_Store
