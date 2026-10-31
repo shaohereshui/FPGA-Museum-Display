@@ -1,0 +1,22 @@
+# vsim -c -lib work -l tb_zoom_remote_checked.log -wlf tb_zoom_remote_checked.wlf tb_zoom_remote -do "run -all; quit -code 0" 
+# Start time: 12:30:14 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_zoom_remote
+# Loading work.media_input_router
+# Loading work.key_debounce
+# Loading work.media_control
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ctrl'.  Expected 48, found 41.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_zoom_remote/ctrl File: D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv Line: 15
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'brightness_manual'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'param_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'audio_enable'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'volume_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'visual_mode'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'trans_mode'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(15): [TFMPC] - Missing connection for port 'pan_axis'.
+# run -all
+# PASS: IR3 held-entry/context, 1/3 scale, 4 directions, no action leakage, bounds/edge shrink, menu priority, * exit for remote and GUIDE zoom, matrix/IR7/pause/emergency/SW2 regression
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_zoom_remote.sv(81)
+#    Time: 61200 ns  Iteration: 1  Instance: /tb_zoom_remote
+# End time: 12:30:15 on Oct 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 8

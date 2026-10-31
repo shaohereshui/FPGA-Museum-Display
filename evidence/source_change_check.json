@@ -1,0 +1,48 @@
+{
+  "time": "2026-10-29T12:44:56.1097789+08:00",
+  "changed_files": [
+    {
+      "path": "tf_sdram_hdmi_media_extension_candidate\\build.tcl",
+      "sha256": "13B714DAABB0B724909C36E828D8B5EFE449F94F0488FA47CFC4E7228B974DD6",
+      "baseline_sha256": "AEAC8787BF3F225782B303FE890DB48BA56E6EBE67DB4BF9259CF7AE60341AE5"
+    },
+    {
+      "path": "tf_sdram_hdmi_media_extension_candidate\\hdmi_osd_5x7.v",
+      "sha256": "F6B6A0EA5DEE4147CC9AC349E5F85AA29F78859DDF3637FCC3ECE7CC8F4881E8",
+      "baseline_sha256": "7ECF54CD655AD23AC703BD163B1AFD074F334C028F1FFFB4FCEFBB8BDACB2127"
+    },
+    {
+      "path": "tf_sdram_hdmi_media_extension_candidate\\tf_sdram_hdmi_media_core.v",
+      "sha256": "CE12AC48FE86300E6CEB3ED45D3DB66BBCB4DED24C31A7C90B8FCC023BD8C2A6",
+      "baseline_sha256": "898C49A3570A5B0E6D1DCA53E1E260C6E7EE334ABB60771B0FF777E29EF72BFB"
+    }
+  ],
+  "build_snapshot_verified_files": 78,
+  "adc_sampling_filter_and_control_unchanged": true,
+  "uart_and_image_control_unchanged": true,
+  "pin_and_timing_constraints_unchanged": true,
+  "build_seed": 23,
+  "attempts": [
+    {
+      "seed": 31,
+      "status": "failed",
+      "reason": "Local routing resource conflict"
+    },
+    {
+      "seed": 17,
+      "status": "failed",
+      "reason": "4920 MSlices exceed device limit 4900"
+    },
+    {
+      "seed": 5,
+      "status": "cancelled",
+      "reason": "Seed 23 build and timing passed; redundant attempt stopped"
+    },
+    {
+      "seed": 23,
+      "status": "passed"
+    }
+  ],
+  "sram_programmed": false,
+  "flash_written": false
+}

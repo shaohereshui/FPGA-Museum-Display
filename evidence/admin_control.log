@@ -1,0 +1,15 @@
+# vsim -c -lib admin_work -l admin_control.log -wlf admin_control.wlf tb_admin_control -do "run -all; quit -code 0" 
+# Start time: 12:30:00 on Oct 29,2026
+# Loading sv_std.std
+# Loading admin_work.tb_admin_control
+# Loading admin_work.subtitle_uart
+# Loading admin_work.museum_subtitle
+# Loading admin_work.media_control
+# Loading admin_work.key_debounce
+# Loading admin_work.image_select_control
+# run -all
+# PASS: real UART control/status CRC, five images, wrap, carousel, controls, audio priority, invalid/partial rejection, polling/manual timeout and atomic subtitle preservation
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_admin_control.sv(143)
+#    Time: 1297530 ns  Iteration: 1  Instance: /tb_admin_control
+# End time: 12:30:03 on Oct 29,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

@@ -1,0 +1,40 @@
+# vsim -c -lib work -l tb_board_controls_checked.log -wlf tb_board_controls_checked.wlf tb_board_controls -do "run -all; quit -code 0" 
+# Start time: 12:30:09 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_board_controls
+# Loading work.board_controls
+# Loading work.key_debounce
+# Loading work.media_input_router
+# Loading work.media_control
+# Loading work.ir_nec_keys
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ctrl'.  Expected 48, found 45.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_board_controls/ctrl File: D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv Line: 23
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(23): [TFMPC] - Missing connection for port 'param_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(23): [TFMPC] - Missing connection for port 'volume_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(23): [TFMPC] - Missing connection for port 'pan_axis'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'ir_receiver'.  Expected 23, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_board_controls/ir_receiver File: D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv Line: 38
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'keys_down'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'activity'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_line'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_raw_edges'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_drops'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_edges'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_frames'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_valid'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_keys'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_raw'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_header_high'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_first_low'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_first_high'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_fail_us'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_fail'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_fail_bit'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_partial'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(38): [TFMPC] - Missing connection for port 'diag_lead_us'.
+# run -all
+# PASS: board-only complete menu tree, DISPLAY values/repeat, GUIDE/TRANS, long-back/no-tap, two-axis pan, chord scaling/release/bounds, SW3 visual/context, switch override of remote pause/zoom/emergency, ambient/manual idle, bounce and reset
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_board_controls.sv(127)
+#    Time: 159400 ns  Iteration: 1  Instance: /tb_board_controls
+# End time: 12:30:11 on Oct 29,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 23

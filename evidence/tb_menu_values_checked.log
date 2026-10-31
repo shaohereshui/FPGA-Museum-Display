@@ -1,0 +1,13 @@
+# vsim -c -lib work -l tb_menu_values_checked.log -wlf tb_menu_values_checked.wlf tb_menu_values -do "run -all; quit -code 0" 
+# Start time: 12:30:30 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_menu_values
+# Loading work.hdmi_osd_5x7
+# Loading work.museum_subtitle
+# run -all
+# PASS: all 3584 pixels of former ADC diagnostic row preserve video
+# PASS: live CON/BRI values, VOL 0/9/10/50/73/99/100 and clamp, black text, edit header suppression, RTL render
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_menu_values.sv(62)
+#    Time: 6915776 ns  Iteration: 0  Instance: /tb_menu_values
+# End time: 12:30:36 on Oct 29,2026, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0

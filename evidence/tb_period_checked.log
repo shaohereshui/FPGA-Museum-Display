@@ -1,0 +1,24 @@
+# vsim -c -lib work -l tb_period_checked.log -wlf tb_period_checked.wlf tb_period -do "run -all; quit -code 0" 
+# Start time: 12:30:19 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_period
+# Loading work.ir_nec_keys
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 23, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_period/dut File: D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv Line: 12
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'activity'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_line'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_raw_edges'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_edges'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_header_high'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_first_low'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_first_high'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_fail_us'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_fail_bit'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_partial'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(12): [TFMPC] - Missing connection for port 'diag_lead_us'.
+# run -all
+# PASS full: measured stretched pulses, variable duty, clean NEC, glitches, checksums, wrong address, missing stop, ambiguous/short/long pulses, all 17 keys, repeat/emergency/release/reset
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_period.sv(97)
+#    Time: 2665968 us  Iteration: 1  Instance: /tb_period
+# End time: 12:30:27 on Oct 29,2026, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 12

@@ -1,0 +1,13 @@
+# vsim -c -lib work -l tb_adc_clock_checked.log -wlf tb_adc_clock_checked.wlf tb_adc_clock -do "run -all; quit -code 0" 
+# Start time: 12:30:00 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_adc_clock
+# Loading work.eg4_light_sensor
+# Loading work.EG_PHY_ADC
+# Loading work.ambient_brightness
+# run -all
+# PASS: ADC <=16 MHz, SOC timing, one valid per conversion, 1 ms-equivalent cadence, raw codes and 6/0/9 mapping
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_adc_clock.sv(52)
+#    Time: 1137992550 ps  Iteration: 1  Instance: /tb_adc_clock
+# End time: 12:30:02 on Oct 29,2026, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

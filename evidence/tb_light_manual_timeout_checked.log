@@ -1,0 +1,35 @@
+# vsim -c -lib work -l tb_light_manual_timeout_checked.log -wlf tb_light_manual_timeout_checked.wlf tb_light_manual_timeout -do "run -all; quit -code 0" 
+# Start time: 12:30:05 on Oct 29,2026
+# Loading sv_std.std
+# Loading work.tb_light_manual_timeout
+# Loading work.media_control
+# Loading work.key_debounce
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 48, found 27.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_light_manual_timeout/dut File: D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv Line: 12
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'prev_image_press'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'next_image_press'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'contrast'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'volume'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'param_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'audio_enable'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'volume_select'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'visual_mode'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'ui_active'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'ui_item'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'ui_guide'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'ui_trans'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'trans_mode'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_menu_active'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_on'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_exit_req'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_span_x'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_span_y'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_win_x'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'zoom_win_y'.
+# ** Warning: (vsim-3722) D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(12): [TFMPC] - Missing connection for port 'pan_axis'.
+# run -all
+# PASS: manual brightness 5 remains until manual idle deadline; ambient zero restores afterward
+# ** Note: $finish    : D:/FPGA/debug/v49_admin_clean_20261029/evidence/tb_light_manual_timeout.sv(43)
+#    Time: 23230 ns  Iteration: 1  Instance: /tb_light_manual_timeout
+# End time: 12:30:06 on Oct 29,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 22

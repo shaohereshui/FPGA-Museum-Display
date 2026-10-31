@@ -1,0 +1,37 @@
+{
+  "time": "2026-10-29T12:30:36.7425236+08:00",
+  "tests": [
+    {
+      "test": "tb_adc_clock",
+      "passed": true,
+      "log": "tb_adc_clock_checked.log"
+    },
+    {
+      "test": "tb_light_manual_timeout",
+      "passed": true,
+      "log": "tb_light_manual_timeout_checked.log"
+    },
+    {
+      "test": "tb_board_controls",
+      "passed": true,
+      "log": "tb_board_controls_checked.log"
+    },
+    {
+      "test": "tb_zoom_remote",
+      "passed": true,
+      "log": "tb_zoom_remote_checked.log"
+    },
+    {
+      "test": "tb_period",
+      "passed": true,
+      "log": "tb_period_checked.log"
+    },
+    {
+      "test": "tb_menu_values",
+      "passed": true,
+      "log": "tb_menu_values_checked.log"
+    }
+  ],
+  "analog_hardware_verified": false,
+  "flash_written": false
+}
